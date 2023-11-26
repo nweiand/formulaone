@@ -1,3 +1,4 @@
+boto3
 pytest
 sphinx
 ipykernel
@@ -6,3 +7,4 @@ pandas
 pyarrow
 fastparquet
 scikit-learn
+flake8

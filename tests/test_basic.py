@@ -7,3 +7,4 @@ import pandas as pd
 def test_check_dataframe_size():
     df = pd.read_parquet(get_tidy_data_path() / 'current_race.parquet')
     assert df.shape[1] == 26
+
