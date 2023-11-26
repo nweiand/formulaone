@@ -5,7 +5,7 @@ import boto3
 
 
 class Connector():
-''' Connector creates'''
+# Creates a connection to a dynamo DB via Boto3
     def __init__(self, db, conn_json):
         self.db = db
         self.json = conn_json
